@@ -1,0 +1,129 @@
+.active-pink-4 input[type=text]:focus:not([readonly]) {
+  border: 1px solid #D5B4F9;
+  -webkit-box-shadow: 0 0 0 1px #D5B4F9;
+          box-shadow: 0 0 0 1px #D5B4F9;
+}
+
+.active-pink-3 input[type=text] {
+  border: 1px solid #D5B4F9;
+  -webkit-box-shadow: 0 0 0 1px #D5B4F9;
+          box-shadow: 0 0 0 1px #D5B4F9;
+}
+
+body {
+  font-family: "Sansita", sans-serif;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .header__logo {
+  margin-top: 8px;
+}
+
+header .header__logo .header__logo__img {
+  height: 53px;
+}
+
+header .header__search {
+  height: 53px;
+}
+
+header .header__search .header__form {
+  margin: 15px 8px;
+  position: relative;
+}
+
+header .header__search .header__form .header__search__input {
+  border-radius: 30px;
+}
+
+header .header__search .header__form input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+header .header__search .header__form input::-moz-placeholder {
+  font-style: italic;
+}
+
+header .header__search .header__form .header__form__button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background: none;
+}
+
+header .header__btn {
+  margin-top: 8px;
+  height: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header__btn .header__form-right__btn {
+  background-color: #35CC99;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+}
+
+header .header__btn .header__form-right__btn:hover {
+  color: white;
+}
+
+header .header__btn .header__form-cart {
+  border: none;
+  background: none;
+  position: relative;
+}
+
+header .header__btn .header__form-cart .header__form-cart-increment {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+
+header .header__btn .header__form-cart .header__form-cart-increment p {
+  text-align: center;
+}
+
+.header-down {
+  margin-top: 40px;
+  border-top: 2px solid #D5B4F9;
+  border-bottom: 2px solid #D5B4F9;
+  -webkit-box-shadow: 5px 8px 18px #D5B4F9;
+          box-shadow: 5px 8px 18px #D5B4F9;
+  font-size: 20px;
+}
+
+.header-down .header__nav__list {
+  margin: 15px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.header-down .header__nav__list a {
+  color: #4D4D4D;
+  text-decoration: none;
+}
+
+.header-down .header__nav__list a:hover {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */

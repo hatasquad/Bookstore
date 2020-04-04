@@ -1,0 +1,9 @@
+@mixin placeholder__font {
+   input::-webkit-input-placeholder {
+        font-style: italic;
+     }
+     input::-moz-placeholder {
+        font-style: italic;  
+     }
+    
+}
