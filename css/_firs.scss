@@ -1,0 +1,30 @@
+@import "mixin";
+@import "values";
+
+.first-section{
+    background-image: url(/img/slider1/Untitled-21.svg);
+    background-size:auto ;
+    background-repeat: no-repeat;
+    h1{
+        margin: auto;
+        margin-right: 0;
+        text-align: center;
+       
+    }
+    .slider__right{
+        margin-top: 20px;
+        position: relative;
+            p{
+                font-size: $mainFont;
+                line-height: 2em;
+                margin-left: 10px;
+            }
+            .slider__button-cart{
+                padding: 10px 60px;
+                position: absolute;
+                bottom: 50px;
+                right: 35px;
+            }
+        }
+           
+}

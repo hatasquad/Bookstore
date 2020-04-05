@@ -7,3 +7,23 @@
      }
     
 }
+
+@mixin mainBtn() {
+   button{
+      background-color: $btnColors;
+      font-size: $mainFont;
+      border-radius: $borderRadius;
+      font-size: $btnFont;
+      color: $colorBtn; 
+         &:hover{
+            color: $colorHover;
+         }
+   }
+}
+
+@mixin h1 {
+   h1{
+   font-size: $h1;
+   font-weight: bold;
+   }  
+}
