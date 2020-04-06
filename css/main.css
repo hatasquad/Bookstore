@@ -46,7 +46,7 @@ header .header__search .header__form input::-moz-placeholder {
 
 header .header__search .header__form .header__form__button {
   position: absolute;
-  top: 5px;
+  top: -2px;
   right: 10px;
   border: none;
   background: none;
@@ -94,7 +94,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   border-bottom: 2px solid #D5B4F9;
   -webkit-box-shadow: 5px 8px 18px #D5B4F9;
           box-shadow: 5px 8px 18px #D5B4F9;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .header-down .header__nav__list {
@@ -117,9 +117,10 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .first-section {
-  background-image: url(/img/slider1/Untitled-21.svg);
-  background-size: auto;
+  background-image: url(/img/fon.svg);
+  background-size: inherit;
   background-repeat: no-repeat;
+  height: 600px;
 }
 
 .first-section h1 {
@@ -134,7 +135,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .first-section .slider__right p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 2em;
   margin-left: 10px;
 }
@@ -146,15 +147,60 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   right: 35px;
 }
 
+.slick-dots {
+  height: 20px;
+}
+
+.second-section {
+  height: 80vh;
+  background-color: #F7F7F7;
+}
+
+.second-section .second-wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.second-section .second-wrapper h1 {
+  padding: 40px 0;
+}
+
+.second-section .second-wrapper h2 {
+  text-align: center;
+  margin: 0  0  25px;
+}
+
+.second-section .second-wrapper .second-slider__box {
+  max-width: 310px;
+  margin: 20px;
+}
+
+.second-section .second-wrapper .second-slider__box .second-slider__img {
+  margin: 0 auto 15px;
+}
+
+.second-section .second-wrapper .second-slider__box h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.second-section .second-wrapper .second-slider__box button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  margin-bottom: 15px;
+}
+
 body {
   font-family: "Sansita", sans-serif;
 }
 
 button {
   background-color: #35CC99;
-  font-size: 20px;
+  font-size: 1.25rem;
   border-radius: 30px;
   font-size: 23px;
+  border: none;
   color: #fff;
 }
 
@@ -163,7 +209,8 @@ button:hover {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

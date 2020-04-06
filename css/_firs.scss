@@ -2,9 +2,10 @@
 @import "values";
 
 .first-section{
-    background-image: url(/img/slider1/Untitled-21.svg);
-    background-size:auto ;
+    background-image: url(/img/fon.svg);
+    background-size:inherit;
     background-repeat: no-repeat;
+    height: 600px;
     h1{
         margin: auto;
         margin-right: 0;
@@ -27,4 +28,8 @@
             }
         }
            
+}
+
+.slick-dots{
+    height: 20px;
 }

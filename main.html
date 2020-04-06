@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    
+    <script src="/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     <link rel="stylesheet" href="/css/main.css" type="text/css">
     <title>Document</title>
 </head>
@@ -56,82 +59,221 @@
                 </ul>
             </nav>
         </div>
-    <section class="first-section container">
-        <h1 class="col-md-8">Najlepsze za tydzień!</h1>
-        <div class="fotorama slider" data-width="100%" data-height="50%" >
-           <div class="slider__box row">
-                <div class="slider__left col-md-3">
-                    <img class="slider__left__img" src="/img/slider1/book1.svg">
+    <section class="first-section">
+        <div class="slider container">
+            <h1 class="col-md-8 tittle">Najlepsze za tydzień!</h1>
+            
+                <div class="slider__box">
+                    <div class="slider__content row d-flex">
+                            <div class="slider__left col-md-3">
+                                <img class="slider__left__img" src="/img/slider1/book1.svg">
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="slider__right col-md-8">
+                                <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                                <p class="slider__right-text ">
+                                    Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
+                                    Nasze promocje są najlepsze. I td. The first 34 issues include
+                                    some classic skull and grave covers, witches, the undead and
+                                    other horror comic mainstays of the era.
+                                    These seldom turn up in better condition than VG. The
+                                    comics with black covers are especially tough to find in 
+                                    nice shape.
+                                </p>
+                                <form action="#" class="">
+                                    <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                                </form>
+                            </div>           
+                    </div>
+
+                    <div class="slider__content row d-flex">
+                        <div class="slider__left col-md-3">
+                            <img class="slider__left__img" src="/img/slider1/book1.svg">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="slider__right col-md-8">
+                            <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                            <p class="slider__right-text ">
+                                Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
+                                Nasze promocje są najlepsze. I td. The first 34 issues include
+                                some classic skull and grave covers, witches, the undead and
+                                other horror comic mainstays of the era.
+                                These seldom turn up in better condition than VG. The
+                                comics with black covers are especially tough to find in 
+                                nice shape.
+                            </p>
+                            <form action="#" class="">
+                                <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                            </form>
+                        </div>           
+                    </div>
+                    <div class="slider__content row d-flex">
+                        <div class="slider__left col-md-3">
+                            <img class="slider__left__img" src="/img/slider1/book1.svg">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="slider__right col-md-8">
+                            <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                            <p class="slider__right-text ">
+                                Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
+                                Nasze promocje są najlepsze. I td. The first 34 issues include
+                                some classic skull and grave covers, witches, the undead and
+                                other horror comic mainstays of the era.
+                                These seldom turn up in better condition than VG. The
+                                comics with black covers are especially tough to find in 
+                                  nice shape.
+                            </p>
+                            <form action="#" class="">
+                                <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                            </form>
+                        </div>           
                 </div>
-                <div class="col-md-1"></div>
-                <div class="slider__right col-md-8">
-                    <h4>Autor: <strong>Nazwa</strong></h4>
-                    <p class="slider__right-text">
-                        Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
-                        Nasze promocje są najlepsze. I td. The first 34 issues include
-                        some classic skull and grave covers, witches, the undead and
-                        other horror comic mainstays of the era.
-                        These seldom turn up in better condition than VG. The
-                        comics with black covers are especially tough to find in 
-                        nice shape.
-                    </p>
-                    <form action="#" class="">
-                        <button class="slider__button-cart mainBtn">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
-                    </form>
-                </div>
-               
-            </div>   
-            <div class="slider__box row">
-                <div class="slider__left col-md-3">
-                    <img class="slider__left__img" src="/img/slider1/book1.svg">
-                </div>
-                <div class="col-md-1"></div>
-                <div class="slider__right col-md-8">
-                    <h4>Autor: <strong>Nazwa</strong></h4>
-                    <p class="slider__right-text">
-                        Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
-                        Nasze promocje są najlepsze. I td. The first 34 issues include
-                        some classic skull and grave covers, witches, the undead and
-                        other horror comic mainstays of the era.
-                        These seldom turn up in better condition than VG. The
-                        comics with black covers are especially tough to find in 
-                        nice shape.
-                    </p>
-                    <form action="#" class="">
-                        <button class="slider__button-cart mainBtn">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
-                    </form>
-                </div>
-               
-            </div>   
-            <div class="slider__box row">
-                <div class="slider__left col-md-3">
-                    <img class="slider__left__img" src="/img/slider1/book1.svg">
-                </div>
-                <div class="col-md-1"></div>
-                <div class="slider__right col-md-8">
-                    <h4>Autor: <strong>Nazwa</strong></h4>
-                    <p class="slider__right-text">
-                        Jakiś tam opis. Jakaś tam promocja. Przykładowa książka.
-                        Nasze promocje są najlepsze. I td. The first 34 issues include
-                        some classic skull and grave covers, witches, the undead and
-                        other horror comic mainstays of the era.
-                        These seldom turn up in better condition than VG. The
-                        comics with black covers are especially tough to find in 
-                        nice shape.
-                    </p>
-                    <form action="#" class="">
-                        <button class="slider__button-cart mainBtn">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
-                    </form>
-                </div>
-               
-            </div>   
-             
-           
-        </div>
+
+
+                    
+                </div>    
+                
+        </div>      
+        
             
             
     </section>
+    <section class="second-section">
+        <div class="second-wrapper ">
+        <h1 class="title">NOWOŚCI!</h1>
+        <h2 class="sub-title"> WYBIERZ COŚ DLA SIEBIE </h2>
+            <div class="second-slider">
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div> 
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="second-slider__box">
+                    <div class="second-slider__content">
+                        <a href="#" class="second-slider__link"><img class="second-slider__img" src="/img/slider2/e_1czo.svg" alt="boock"> </a>
+                        <h4 class="">Autor: <strong>Nazwa</strong></h4>
+                        <form action="#" class="">
+                            <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
+   
+    <script type="text/javascript" src="js/slider.js"></script>
 </body>
 </html>
