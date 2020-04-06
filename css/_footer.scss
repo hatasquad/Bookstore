@@ -1,0 +1,21 @@
+.footer{
+    height: 80vh;
+     &-up{
+         background-color: $bgColor;
+         &__box{ 
+             display: flex;  
+             justify-content: space-between;
+                .footer-up__link{
+                    display: block;
+                    font-size: 25px;
+                   .footer-up__icon{
+                       width: 42px;
+                       height: 30px;
+                       .people{
+                           font-size: 14px;
+                       }
+                   }
+                }
+            }
+        }
+}

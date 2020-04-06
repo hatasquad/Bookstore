@@ -1,16 +1,10 @@
 .second-section{
     height: 80vh;
-    background-color: #F7F7F7;    
+    background-color: $bgColor;    
      .second-wrapper{ 
          max-width: 95%;
          margin: 0 auto;
-        h1{
-            padding: 40px 0;
-        }
-        h2{
-            text-align:  center;
-            margin: 0  0  25px;
-        }
+       
         .second-slider__box{
             max-width: 310px;
             margin: 20px;

@@ -94,7 +94,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   border-bottom: 2px solid #D5B4F9;
   -webkit-box-shadow: 5px 8px 18px #D5B4F9;
           box-shadow: 5px 8px 18px #D5B4F9;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
 }
 
 .header-down .header__nav__list {
@@ -134,9 +134,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   position: relative;
 }
 
-.first-section .slider__right p {
-  font-size: 1.25rem;
-  line-height: 2em;
+.first-section .slider__right .pText {
   margin-left: 10px;
 }
 
@@ -161,15 +159,6 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   margin: 0 auto;
 }
 
-.second-section .second-wrapper h1 {
-  padding: 40px 0;
-}
-
-.second-section .second-wrapper h2 {
-  text-align: center;
-  margin: 0  0  25px;
-}
-
 .second-section .second-wrapper .second-slider__box {
   max-width: 310px;
   margin: 20px;
@@ -191,13 +180,97 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   margin-bottom: 15px;
 }
 
+.third-section {
+  background: url("/img/fon3.svg");
+  height: 75vh;
+  background-repeat: no-repeat;
+}
+
+.third-section .third-content {
+  margin-top: 40px;
+}
+
+.third-section .third-content .img__caption {
+  font-size: 1.4375rem;
+  text-align: center;
+  margin: 10px 0 0 25px;
+}
+
+.third-section .third-content button {
+  padding: 10px 40px;
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+.four {
+  background: url("/img/fon4.svg");
+  height: 75vh;
+  background-repeat: no-repeat;
+}
+
+.five {
+  background: url("/img/fon5.svg");
+  height: 75vh;
+  background-repeat: no-repeat;
+}
+
+.five__img {
+  min-height: 260px;
+}
+
+.five__mg {
+  margin-top: 30px;
+}
+
+.footer {
+  height: 80vh;
+}
+
+.footer-up {
+  background-color: #F7F7F7;
+}
+
+.footer-up__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-up__box .footer-up__link {
+  display: block;
+  font-size: 25px;
+}
+
+.footer-up__box .footer-up__link .footer-up__icon {
+  width: 42px;
+  height: 30px;
+}
+
+.footer-up__box .footer-up__link .footer-up__icon .people {
+  font-size: 14px;
+}
+
 body {
   font-family: "Sansita", sans-serif;
 }
 
+.title {
+  padding: 40px 0;
+}
+
+.sub-title {
+  text-align: center;
+  margin: 0 0 25px;
+  text-transform: uppercase;
+}
+
 button {
+  display: block;
   background-color: #35CC99;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   border-radius: 30px;
   font-size: 23px;
   border: none;
@@ -212,5 +285,11 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.pText {
+  font-size: 1.4375rem;
+  line-height: 2em;
 }
 /*# sourceMappingURL=main.css.map */

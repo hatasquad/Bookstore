@@ -10,6 +10,7 @@
 
 @mixin mainBtn() {
    button{
+      display: block;
       background-color: $btnColors;
       font-size: $mainFont;
       border-radius: $borderRadius;
@@ -27,6 +28,21 @@
    font-size: $h1;
    font-weight: bold;
    text-align: center;
+   text-transform: uppercase;
    }  
 }
 
+@mixin pText {
+   .pText{
+   font-size: $mainFont;
+   line-height: 2em;
+   }
+}
+
+@mixin mSection($name){
+      $url:"/img/#{$name}.svg";
+      background: url($url);
+      height: 75vh;
+      background-repeat: no-repeat;
+   
+}
