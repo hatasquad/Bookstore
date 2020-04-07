@@ -2,20 +2,67 @@
     height: 80vh;
      &-up{
          background-color: $bgColor;
+         border-top: 1px solid #d8d8d8;
          &__box{ 
              display: flex;  
              justify-content: space-between;
+             padding-bottom: 25px;
+             
                 .footer-up__link{
                     display: block;
-                    font-size: 25px;
+                    text-decoration: none;
+                  
+                    
+                    &:nth-child(1) .footer-up__icon:hover{
+                        color: #486BA8;
+                    }
+                    &:nth-child(2) .footer-up__icon:hover{
+                        color: #fff;
+                        width: 60px;
+                        margin: 0 auto;
+                        border-radius: 10px;
+                        background-color: #3b5998;
+                    }
+                    &:nth-child(3) .footer-up__icon:hover{
+                        color: #31a6f1;
+                    }
+                    &:nth-child(4) .footer-up__icon:hover{
+                        background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+                       color: #447099;
+                    
+                    }
+                    &:nth-child(5) .footer-up__icon:hover{
+                        color: #D92632;
+                    }
+                    &:nth-child(6) .footer-up__icon:hover{
+                        width: 60px;
+                        margin: 0 auto;
+                        color: #fff;
+                        border-radius: 10px;
+                        background-color: #0073b0;
+                    }
+
                    .footer-up__icon{
-                       width: 42px;
-                       height: 30px;
-                       .people{
-                           font-size: 14px;
-                       }
+                       display: block;
+                       font-size: 40px;
+                       text-align: center;
+                       color: $footerColor;
+                       padding: 4px 0;
+                      
+                      
                    }
+                   .people{
+                          display: block;
+                         
+                          text-align: center;
+                          color: #1f1f1f;
+
+                    }
                 }
             }
+        }
+        &-down{
+            background-color: $footerColor;
+            height:80vh;
         }
 }
