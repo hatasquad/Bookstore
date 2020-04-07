@@ -46,3 +46,19 @@
       background-repeat: no-repeat;
    
 }
+
+@mixin transitionIcons {
+   transition-property: color, margin, border-radius, background-color;
+   transition-duration: 0.5s;
+   transition-delay: 0s;
+   transition-timing-function: ease;
+}
+
+@mixin iconsBack($bg) {
+   color: #fff;
+   width: 60px;
+   margin: 0 auto;
+   border-radius: 10px;
+   background-color: $bg;
+   
+}

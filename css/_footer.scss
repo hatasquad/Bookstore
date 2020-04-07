@@ -11,44 +11,42 @@
                 .footer-up__link{
                     display: block;
                     text-decoration: none;
-                  
                     
-                    &:nth-child(1) .footer-up__icon:hover{
-                        color: #486BA8;
-                    }
-                    &:nth-child(2) .footer-up__icon:hover{
-                        color: #fff;
-                        width: 60px;
-                        margin: 0 auto;
-                        border-radius: 10px;
-                        background-color: #3b5998;
-                    }
-                    &:nth-child(3) .footer-up__icon:hover{
-                        color: #31a6f1;
-                    }
-                    &:nth-child(4) .footer-up__icon:hover{
-                        background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-                       color: #447099;
                     
-                    }
-                    &:nth-child(5) .footer-up__icon:hover{
-                        color: #D92632;
-                    }
-                    &:nth-child(6) .footer-up__icon:hover{
-                        width: 60px;
-                        margin: 0 auto;
-                        color: #fff;
-                        border-radius: 10px;
-                        background-color: #0073b0;
-                    }
+                        &:nth-child(1) .footer-up__icon:hover{
+                            color: #486BA8;
+                        }
+                        &:nth-child(2) .footer-up__icon:hover{
+                        @include iconsBack($bgFacebook);
+                        }
+                        &:nth-child(3) .footer-up__icon:hover{
+                            color: #31a6f1;
+                        }
+                        &:nth-child(4) .footer-up__icon:hover{
+                        color: #FE5445;
+                        
+                        }
+                        &:nth-child(5) .footer-up__icon:hover{
+                            color: #D92632;
+                        }
+                        &:nth-child(6) .footer-up__icon:hover{
+                            @include iconsBack($bgLinked);
+                            
+                        }
+                        .footer-up__icon__box{
+                            width: 60px;
+                            margin: 0 auto;
+                        }
+                       
 
                    .footer-up__icon{
+                       
                        display: block;
                        font-size: 40px;
                        text-align: center;
                        color: $footerColor;
                        padding: 4px 0;
-                      
+                       @include transitionIcons;
                       
                    }
                    .people{
@@ -59,6 +57,7 @@
 
                     }
                 }
+                
             }
         }
         &-down{

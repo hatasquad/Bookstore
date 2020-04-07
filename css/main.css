@@ -263,8 +263,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .footer-up__box .footer-up__link:nth-child(4) .footer-up__icon:hover {
-  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-  color: #447099;
+  color: #FE5445;
 }
 
 .footer-up__box .footer-up__link:nth-child(5) .footer-up__icon:hover {
@@ -272,11 +271,16 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .footer-up__box .footer-up__link:nth-child(6) .footer-up__icon:hover {
+  color: #fff;
   width: 60px;
   margin: 0 auto;
-  color: #fff;
   border-radius: 10px;
   background-color: #0073b0;
+}
+
+.footer-up__box .footer-up__link .footer-up__icon__box {
+  width: 60px;
+  margin: 0 auto;
 }
 
 .footer-up__box .footer-up__link .footer-up__icon {
@@ -285,6 +289,14 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   text-align: center;
   color: #0f0f0f;
   padding: 4px 0;
+  -webkit-transition-property: color, margin, border-radius, background-color;
+  transition-property: color, margin, border-radius, background-color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
 }
 
 .footer-up__box .footer-up__link .people {
