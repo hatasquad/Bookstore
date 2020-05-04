@@ -17,8 +17,12 @@
       font-size: $btnFont;
       border:none;
       color: $colorBtn; 
+      transition: color .5s;
          &:hover{
             color: $colorHover;
+         }
+         &:focus{
+            outline: none;
          }
    }
 }

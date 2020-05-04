@@ -6,7 +6,9 @@ $('.slider__box').slick({
     adaptiveHeight: true,
     autoplay: true,
     autoplaySpeed: 6000,
-    swipeToSlide: true
+    swipeToSlide: true,
+    nextArrow: '<i class="fas fa-arrow-circle-right slider-btn slider-next"></i>',
+    prevArrow: '<i class="fas fa-arrow-circle-left slider-btn slider-prev"></i>'
   });
 
   $('.second-slider').slick({
@@ -17,8 +19,11 @@ $('.slider__box').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,
-    arows: true,
+    
     swipeToSlide: true,
+    nextArrow: '<i class="fas fa-arrow-circle-right slider-btn slider-next2"></i>',
+    prevArrow: '<i class="fas fa-arrow-circle-left slider-btn slider-prev2"></i>',
+  
     responsive: [
       {
         breakpoint: 1024,
