@@ -15,7 +15,7 @@ $('.slider__box').slick({
     dots: true,
     infinite: true,
     speed: 600,
-    slidesToShow: 6,
+    slidesToShow: 5 ,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 6000,

@@ -135,6 +135,8 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .first-section .slider__right .pText {
+  font-size: 1.4375rem;
+  line-height: 2em;
   margin-left: 10px;
 }
 
@@ -293,12 +295,12 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   text-align: center;
   color: #0f0f0f;
   padding: 4px 0;
-  -webkit-transition-property: color, margin, border-radius, background-color;
-  transition-property: color, margin, border-radius, background-color;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  -webkit-transition-property: color, border-radius, background-color;
+  transition-property: color, border-radius, background-color;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
 }
@@ -391,6 +393,14 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   height: 80%;
   border-radius: 25px;
   border: 3px solid #ffc222;
+}
+
+.footer-down__form input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.footer-down__form input::-moz-placeholder {
+  font-style: italic;
 }
 
 .footer-down__form__wrapper {

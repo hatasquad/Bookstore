@@ -1,6 +1,7 @@
 @import "mixin";
 @import "values";
 
+// FIRS SECTION//
 .first-section{
     background-image: url(/img/fon.svg);
     background-size:inherit;
@@ -12,26 +13,30 @@
         text-align: center;
        
     }
-    .slider__right{
-        margin-top: 20px;
-        position: relative;
-            .pText{
-                
-                margin-left: 10px;
-            }
-            .slider__button-cart{
-                padding: 10px 60px;
-                position: absolute;
-                bottom: 50px;
-                right: 35px;
-            }
+    
+    .slider{
+        &__left__img:focus{
+            outline: none;
         }
+        //RIGHT PART OF SLIDER BLOCK FROM FIRS SECTION //
+        &__right{  
+            margin-top: 20px;
+            position: relative;
+                .pText{
+                    font-size: $mainFont;
+                    line-height: 2em;
+                    margin-left: 10px;
+                }
+                .slider__button-cart{
+                    padding: 10px 60px;
+                    position: absolute;
+                    bottom: 50px;
+                    right: 35px;
+                }
+            }
+    }
            
 }
-.slider__left__img:focus{
-    outline: none;
-}
 
-.slick-dots{
-    height: 20px;
-}
+
+

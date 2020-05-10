@@ -1,3 +1,4 @@
+// ITALIC INPUT //
 @mixin placeholder__font {
    input::-webkit-input-placeholder {
         font-style: italic;
@@ -8,6 +9,9 @@
     
 }
 
+
+
+// STYLE FOR ALL BUTTONS//
 @mixin mainBtn() {
    button{
       display: block;
@@ -27,6 +31,7 @@
    }
 }
 
+// STYLE FOR ALL H1 TEG//
 @mixin h1 {
    h1{
    font-size: $h1;
@@ -36,13 +41,7 @@
    }  
 }
 
-@mixin pText {
-   .pText{
-   font-size: $mainFont;
-   line-height: 2em;
-   }
-}
-
+// MIXIN FOR ADDING BACKGROUNDS//
 @mixin mSection($name){
       $url:"/img/#{$name}.svg";
       background: url($url);
@@ -51,13 +50,15 @@
    
 }
 
+// STYLE FOR TRANSITION FOOTER`S ICONS //
 @mixin transitionIcons {
-   transition-property: color, margin, border-radius, background-color;
-   transition-duration: 0.5s;
-   transition-delay: 0s;
+   transition-property: color, border-radius, background-color;
+   transition-duration: .7s;
+   transition-delay: .1s;
    transition-timing-function: ease;
 }
 
+// FOR ADDING BG COLOR TO FOOTER`S  ICONS //
 @mixin iconsBack($bg) {
    color: #fff;
    width: 60px;

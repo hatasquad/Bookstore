@@ -18,6 +18,12 @@
     }
 }
 
+.sub-title{
+    text-align: center;
+    margin: 0 0 25px;
+    text-transform: uppercase;;
+}
+
 .four{
     @include mSection(fon4);
 }
@@ -26,10 +32,3 @@
     @include mSection(fon5);
 }
 
-.five__img{
-    min-height: 260px;
-}
-
-.five__mg{
-    margin-top: 30px;
-}
