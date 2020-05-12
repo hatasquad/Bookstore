@@ -24,9 +24,13 @@ header{
                 .header__form{
                     margin: 15px 8px;
                     position: relative;
+                    
                     .header__search__input{
-    
+                        transition: transform .7s;
                         border-radius: $borderRadius;
+                        &:focus{
+                            transform: scale(1.1);
+                        }
                   }
                      @include placeholder__font;
                   
@@ -36,6 +40,7 @@ header{
                         right: 10px;
                         border: none;
                         background: none;
+
                     }
             }
         }
@@ -102,4 +107,6 @@ header{
                 }
 
         }
-
+#loupe{
+    transition: transform .7s;
+}

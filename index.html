@@ -25,8 +25,8 @@
                 </div>
                 <div class="header__search col-md-7">
                     <form  class="header__form active-pink-3 active-pink-4 mb-4">
-                        <input class="form-control header__search__input" type="text" placeholder="Wyszukaj..." aria-label="Search">
-                        <button class="header__form__button" type="submit"><img src="img/Component 17 – 1.svg"></button>
+                        <input class="form-control header__search__input" id="hInput" type="text" placeholder="Wyszukaj..." aria-label="Search">
+                        <button class="header__form__button" type="submit"><img id="loupe" src="img/Component 17 – 1.svg"></button>
                     </form>
                 </div>
                 <div class="header__btn col-md-2">
@@ -692,5 +692,13 @@
 
    
     <script type="text/javascript" src="js/slider.js"></script>
+    <script>
+       $('#hInput').bind('focus', function(){
+            $('#loupe').css('transform' , 'translateX(40px)');
+        });
+        $('#hInput').bind('focusout', function(){
+            $('#loupe').css('transform' , 'translateX(0)');
+        });
+    </script>
 </body>
 </html>
