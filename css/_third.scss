@@ -1,5 +1,7 @@
 .third-section{
    @include mSection(fon3);
+    height: 90vh;
+    padding-top: 60px;
     .third-content{
     margin-top: 40px;
     
@@ -26,9 +28,19 @@
 
 .four{
     @include mSection(fon4);
+    height: 90vh;
+    padding-top: 60px;
 }
 
 .five{
-    @include mSection(fon5);
+    @include mSection(fon);
+    height: 70vh;
+    padding-top: 60px;
+    &-content{
+       .content__img{
+        height: 240px;
+        padding-left: 10px;
+       }
+    }
 }
 

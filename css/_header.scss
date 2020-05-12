@@ -5,6 +5,7 @@ header{
     margin: 0 auto;
         .header__logo{
            margin-top: 8px;
+           padding: 0 30px;
                 .header__logo__img{
                     height: 53px;
                 }
@@ -77,8 +78,7 @@ header{
 }
 
  .header-down{
-            
-            margin: 40px 0px;
+            margin: 25px 0px 40px;
             border-top: 2px solid $mainColor;
             border-bottom: 2px solid $mainColor;
             box-shadow: 5px 8px 18px $mainColor;
@@ -93,9 +93,11 @@ header{
                         a{
                             color: #4D4D4D;
                             text-decoration: none;
+                            transition: color .5s;
                         }
                         a:hover{
                             color: orange;
+
                         }
                 }
 

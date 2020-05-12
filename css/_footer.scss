@@ -61,9 +61,10 @@
         }
         
     &-down{
-        padding-top: 30px;
-        background-color: $footerColor;
-            height:80vh;
+            height:90vh;
+            padding: 35px 0;
+            background-color: $footerColor;
+            
             &__wrapper{
                 width: 35%;
                 display: flex;
@@ -168,6 +169,7 @@
 
     .copyright{
         background-color: #3C3D3F;
+        height: 8vh;
         &-text{
             display: block;
             text-align: center;

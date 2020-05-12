@@ -3,15 +3,14 @@
 @import "second";
 @import "third";
 @import "footer";
-@import "sliderDots";
+@import "sliderArrows";
+
+
 body{
     font-family: $font;
 }
 
-
-
-
-
 @include mainBtn;
 @include h1;
+
 

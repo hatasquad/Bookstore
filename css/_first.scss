@@ -1,12 +1,10 @@
-@import "mixin";
-@import "values";
-
 // FIRS SECTION//
 .first-section{
     background-image: url(/img/fon.svg);
     background-size:inherit;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 75vh;
+    padding-top: 30px;
     h1{
         margin: auto;
         margin-right: 0;
@@ -22,11 +20,6 @@
         &__right{  
             margin-top: 20px;
             position: relative;
-                .pText{
-                    font-size: $mainFont;
-                    line-height: 2em;
-                    margin-left: 10px;
-                }
                 .slider__button-cart{
                     padding: 10px 60px;
                     position: absolute;
@@ -37,6 +30,10 @@
     }
            
 }
-
+.pText{
+    font-size: $mainFont;
+    line-height: 2em;
+    margin-left: 10px;
+}
 
 
