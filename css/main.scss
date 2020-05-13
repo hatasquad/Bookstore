@@ -4,6 +4,7 @@
 @import "third";
 @import "footer";
 @import "sliderArrows";
+@import "koszyk";
 
 
 body{
@@ -12,5 +13,6 @@ body{
 
 @include mainBtn;
 @include h1;
-
+@include subTitle;
+@include secondaryText;
 

@@ -21,9 +21,10 @@
       font-size: $btnFont;
       border:none;
       color: $colorBtn; 
-      transition: color .5s;
+      transition: transform .7s, color .5s;
          &:hover{
-            color: $colorHover;
+            color: black;
+            transform: scale(1.1);
          }
          &:focus{
             outline: none;
@@ -32,12 +33,13 @@
 }
 
 // STYLE FOR ALL H1 TEG//
-@mixin h1 {
+@mixin h1( $font-weight: bold, $textTransform: uppercase,  $font-style: normal) {
    h1{
    font-size: $h1;
-   font-weight: bold;
+   font-weight: $font-weight;
    text-align: center;
-   text-transform: uppercase;
+   text-transform: $textTransform;
+   font-style: $font-style ;
    }  
 }
 
@@ -67,3 +69,36 @@
    background-color: $bg;
    
 }
+
+@mixin secondaryText {
+   .secondary-text{
+      font-family: $font;
+      font-size: $btnFont;
+      font-style: italic;
+      color: #707070;
+   }
+}
+
+@mixin subTitle($margin: 0 0 25px, $text-transform: uppercase, $font-weight:500, $font-size:2rem, $text-alighn: center, $font-style:normal) {
+   .sub-title{
+      
+      margin: $margin;
+      text-transform: $text-transform;
+      font-size: $font-size;
+      font-weight: $font-weight;
+      text-align: $text-alighn;
+      font-style: $font-style;
+  }
+}
+@mixin subTitle2($margin: 0 0 25px, $text-transform: uppercase, $font-weight:500, $font-size:2rem, $text-alighn: center, $font-style:normal) {
+   
+      
+      margin: $margin;
+      text-transform: $text-transform;
+      font-size: $font-size;
+      font-weight: $font-weight;
+      text-align: $text-alighn;
+      font-style: $font-style;
+  
+}
+
