@@ -1,0 +1,68 @@
+@mixin placeholder__font {
+   input::-webkit-input-placeholder {
+        font-style: italic;
+     }
+     input::-moz-placeholder {
+        font-style: italic;  
+     }
+    
+}
+
+@mixin mainBtn() {
+   button{
+      display: block;
+      background-color: $btnColors;
+      font-size: $mainFont;
+      border-radius: $borderRadius;
+      font-size: $btnFont;
+      border:none;
+      color: $colorBtn; 
+      transition: color .5s;
+         &:hover{
+            color: $colorHover;
+         }
+         &:focus{
+            outline: none;
+         }
+   }
+}
+
+@mixin h1 {
+   h1{
+   font-size: $h1;
+   font-weight: bold;
+   text-align: center;
+   text-transform: uppercase;
+   }  
+}
+
+@mixin pText {
+   .pText{
+   font-size: $mainFont;
+   line-height: 2em;
+   }
+}
+
+@mixin mSection($name){
+      $url:"/img/#{$name}.svg";
+      background: url($url);
+      height: 75vh;
+      background-repeat: no-repeat;
+   
+}
+
+@mixin transitionIcons {
+   transition-property: color, margin, border-radius, background-color;
+   transition-duration: 0.5s;
+   transition-delay: 0s;
+   transition-timing-function: ease;
+}
+
+@mixin iconsBack($bg) {
+   color: #fff;
+   width: 60px;
+   margin: 0 auto;
+   border-radius: 10px;
+   background-color: $bg;
+   
+}

@@ -1,0 +1,35 @@
+.third-section{
+   @include mSection(fon3);
+    .third-content{
+    margin-top: 40px;
+    
+        .img__caption{
+            font-size: $mainFont;
+            text-align: center;
+            margin: 10px 0 0 25px;
+        }
+
+        button{
+            padding: 10px 40px;
+            width: 80%;
+            margin: 30px auto 0;
+        }
+
+    }
+}
+
+.four{
+    @include mSection(fon4);
+}
+
+.five{
+    @include mSection(fon5);
+}
+
+.five__img{
+    min-height: 260px;
+}
+
+.five__mg{
+    margin-top: 30px;
+}

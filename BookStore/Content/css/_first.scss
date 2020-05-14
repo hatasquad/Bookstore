@@ -1,0 +1,37 @@
+@import "mixin";
+@import "values";
+
+.first-section{
+    background-image: url(/img/fon.svg);
+    background-size:inherit;
+    background-repeat: no-repeat;
+    height: 600px;
+    h1{
+        margin: auto;
+        margin-right: 0;
+        text-align: center;
+       
+    }
+    .slider__right{
+        margin-top: 20px;
+        position: relative;
+            .pText{
+                
+                margin-left: 10px;
+            }
+            .slider__button-cart{
+                padding: 10px 60px;
+                position: absolute;
+                bottom: 50px;
+                right: 35px;
+            }
+        }
+           
+}
+.slider__left__img:focus{
+    outline: none;
+}
+
+.slick-dots{
+    height: 20px;
+}

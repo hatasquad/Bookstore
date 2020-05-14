@@ -1,0 +1,23 @@
+@import "header";
+@import "first";
+@import "second";
+@import "third";
+@import "footer";
+@import "sliderDots";
+body{
+    font-family: $font;
+}
+.title{
+    padding: 40px 0;
+}
+.sub-title{
+    text-align: center;
+    margin: 0 0 25px;
+    text-transform: uppercase;;
+}
+
+
+
+@include mainBtn;
+@include h1;
+@include pText;

@@ -1,0 +1,79 @@
+﻿@using BookStore.Models
+
+@model LoginViewModel
+@{
+    Layout = null;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="~/Content/style2/style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <img class="wave" src="~/Content/img/wave2.png" />
+    <div class="container">
+        <div class="img">
+            <img src="~/Content/img/img_left.svg">
+        </div>
+        <section id="loginForm">
+
+            <div class="login-content">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", style = "margin:10%;" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <img src="~/Content/img/avatar.svg">
+                    <h2 class="title">Welcome</h2>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Username</h5>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "input" })
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Password</h5>
+                            @Html.PasswordFor(m => m.Password, new { @class = "input" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <div class="checkbox">
+                                @Html.CheckBoxFor(m => m.RememberMe)
+                                @Html.LabelFor(m => m.RememberMe)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" class="btn" value="Login">
+                            @Html.ActionLink("Register ", "Register", null, new { @class = "btn noHover", style = "text-align:center; padding:10px;" })
+                        </div>
+                    </div>
+                    <p>
+                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                    </p>
+
+                }
+
+            </div>
+        </section>
+
+    </div>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+    <script src="~/Scripts/js/login.js"></script>
+</body>
+</html>
