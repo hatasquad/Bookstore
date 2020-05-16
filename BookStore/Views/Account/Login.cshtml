@@ -29,23 +29,30 @@
 
                     <img src="~/Content/img/avatar.svg">
                     <h2 class="title">Welcome</h2>
-                    <div class="input-div one">
-                        <div class="i">
-                            <i class="fas fa-user"></i>
+                    <div>
+                        <div class="input-div one">
+                            <div class="i">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="div">
+                                <h5>Username</h5>
+                                @Html.TextBoxFor(m => m.Email, new { @class = "input" })
+                            </div>
+
                         </div>
-                        <div class="div">
-                            <h5>Username</h5>
-                            @Html.TextBoxFor(m => m.Email, new { @class = "input" })
-                        </div>
+                        @Html.ValidationMessage("Email", "", new { @class = "text-danger validation-summary-errors" })
                     </div>
-                    <div class="input-div pass">
-                        <div class="i">
-                            <i class="fas fa-lock"></i>
+                    <div>
+                        <div class="input-div pass">
+                            <div class="i">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="div">
+                                <h5>Password</h5>
+                                @Html.PasswordFor(m => m.Password, new { @class = "input" })
+                            </div>
                         </div>
-                        <div class="div">
-                            <h5>Password</h5>
-                            @Html.PasswordFor(m => m.Password, new { @class = "input" })
-                        </div>
+                        @Html.ValidationMessage("Password", "", new { @class = "text-danger validation-summary-errors" })
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
@@ -55,10 +62,13 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
+                            @*@Html.ValidationSummary("", new { @class = "text-danger validation-summary-errors" })*@
+
                             <input type="submit" class="btn" value="Login">
-                            @Html.ActionLink("Register ", "Register", null, new { @class = "btn noHover", style = "text-align:center; padding:10px;" })
+                            @Html.ActionLink("Register", "Register", null, new { @class = "btn noHover", style = "text-align:center; padding:10px;" })
                         </div>
                     </div>
                     <p>
