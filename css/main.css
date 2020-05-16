@@ -693,81 +693,113 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   background-color: #FF7D13;
 }
 
-main .book-wrapper {
+.book-wrapper {
   min-height: 720px;
   background-color: #fffffe;
 }
 
-main .book-wrapper .back a {
+.book-wrapper .back a {
   text-decoration: none;
   color: #707070;
   -webkit-transition: all .7s;
   transition: all .7s;
 }
 
-main .book-wrapper .back a:hover {
+.book-wrapper .back a:hover {
   color: orange;
 }
 
-main .book-wrapper .book-info {
+.book-wrapper .book-info {
   margin-top: 20px;
 }
 
-main .book-wrapper .book-info__image img {
+.book-wrapper .book-info__image img {
   margin: 50px;
   width: 100%;
 }
 
-main .book-wrapper .book-info__description-price {
+.book-wrapper .book-info__description-price {
   font-size: 23px;
   font-style: italic;
 }
 
-main .book-wrapper .book-info__description-price span {
+.book-wrapper .book-info__description-price span {
   font-size: 40px;
   font-weight: 900;
   font-style: normal;
 }
 
-main .book-wrapper .book-info__description-quantity .counter-wrapper {
+.book-wrapper .book-info__description-quantity .counter-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .book-wrapper .book-info__description-quantity .counter-wrapper .counter {
+.book-wrapper .book-info__description-quantity .counter-wrapper .counter {
   all: unset;
   width: 50px;
   text-align: end;
 }
 
-main .book-wrapper .book-info__description-text {
+.book-wrapper .book-info__description-text {
   margin-top: 15px;
   font-size: 23px;
   font-weight: 400;
 }
 
-main .book-wrapper .book-info .mainBtn {
+.book-wrapper .book-info .mainBtn {
   margin-top: 15px;
   width: 280px;
   height: 60px;
   border-radius: 19px;
 }
 
-main .info-icons {
-  padding-top: 50px;
+.info-icons {
+  padding: 50px 0 50px 0;
   min-height: 300px;
   background-color: #fffffe;
 }
 
-main .info-icons__icon-wrapper p {
+.info-icons__icon-wrapper p {
   margin-top: 5px;
   font-size: 23px;
   font-weight: 400;
 }
 
-main .second-section {
-  background: url("/img/fon3.svg");
+.subscribe-info {
+  padding-top: 160px;
+  min-height: 900px;
+  background: url(/img/fon.svg) center/80% no-repeat;
+}
+
+.subscribe-info__headers h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.subscribe-info__headers div {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+}
+
+.subscribe-info__icon {
+  margin: 45px 0 40px 0;
+}
+
+.subscribe-info__icon-wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+
+.subscribe-info__icon-wrapper p {
+  color: #707070;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
 }
 
 body {

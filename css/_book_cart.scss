@@ -1,74 +1,103 @@
-main{
-    .book-wrapper{
-        min-height: 720px;
-        background-color: $bgWite;
-        .back{
-            a{
-                text-decoration: none;
-                color: #707070;
-                transition: all .7s;
-                &:hover{
-                    color: $colorHover;
-                }
-            }
-        }
-        .book-info{
-            margin-top: 20px;
-            &__image{
-                img{
-                    margin: 50px;
-                    width: 100%;
-                }
-            }
-            &__description{
-                &-price{
-                    font-size: 23px;
-                    font-style: italic;
-                    span{
-                        font-size: 40px;
-                        font-weight: 900;
-                        font-style: normal;
-                    }
-                }
-                &-quantity{
-                    .counter-wrapper{
-                        display: flex;
-                        .counter {
-                            all: unset;
-                            width: 50px;
-                            text-align: end;
-                        }
-                    }
-                }
-                &-text{
-                    margin-top: 15px;
-                    font-size: 23px;
-                    font-weight: 400;
-                }
-            }
-            .mainBtn{
-                margin-top: 15px;
-                width: 280px;
-                height: 60px;
-                border-radius: 19px;
+.book-wrapper{
+    min-height: 720px;
+    background-color: $bgWite;
+    .back{
+        a{
+            text-decoration: none;
+            color: #707070;
+            transition: all .7s;
+            &:hover{
+                color: $colorHover;
             }
         }
     }
-
-    .info-icons{
-        padding-top: 50px;
-        min-height: 300px;
-        background-color: $bgWite;
-        &__icon-wrapper{
-            p{
-                margin-top: 5px;
+    .book-info{
+        margin-top: 20px;
+        &__image{
+            img{
+                margin: 50px;
+                width: 100%;
+            }
+        }
+        &__description{
+            &-price{
+                font-size: 23px;
+                font-style: italic;
+                span{
+                    font-size: 40px;
+                    font-weight: 900;
+                    font-style: normal;
+                }
+            }
+            &-quantity{
+                .counter-wrapper{
+                    display: flex;
+                    .counter {
+                        all: unset;
+                        width: 50px;
+                        text-align: end;
+                    }
+                }
+            }
+            &-text{
+                margin-top: 15px;
                 font-size: 23px;
                 font-weight: 400;
             }
         }
+        .mainBtn{
+            margin-top: 15px;
+            width: 280px;
+            height: 60px;
+            border-radius: 19px;
+        }
     }
+}
 
-    .second-section {
-        background: url('/img/fon3.svg');
+.info-icons{
+    padding: 50px 0 50px 0;
+    min-height: 300px;
+    background-color: $bgWite;
+    &__icon-wrapper{
+        p{
+            margin-top: 5px;
+            font-size: 23px;
+            font-weight: 400;
+        }
+    }
+}
+
+.subscribe-info{
+    padding-top: 160px;
+    min-height: 900px;
+    background: url(/img/fon.svg) center/80% no-repeat;
+    &__headers{
+        h2{
+            text-align: center;
+            color: #000000;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 90px;
+        }
+        div{
+            text-align: center;
+            color: #000000;
+            font-size: 40px;
+        }
+    }
+    &__icon{
+        margin: 45px 0 40px 0;
+        &-wrapper{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            p{
+                color: #707070;
+                font-size: 23px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
     }
 }
