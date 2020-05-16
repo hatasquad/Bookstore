@@ -190,6 +190,8 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\third.css" />
     <Content Include="Content\img\avatar.svg" />
+    <Content Include="Content\img\book2.svg" />
+    <Content Include="Content\img\cart-book.png" />
     <Content Include="Content\img\Component 13 – 1.svg" />
     <Content Include="Content\img\Component 17 – 1.svg" />
     <Content Include="Content\img\fon.svg" />
@@ -204,12 +206,19 @@
     <Content Include="Content\img\oferta.svg" />
     <Content Include="Content\img\opinie.svg" />
     <Content Include="Content\img\page1-fone.svg" />
+    <Content Include="Content\img\promocja.svg" />
     <Content Include="Content\img\Rectangle 4.svg" />
     <Content Include="Content\img\Rowling.svg" />
     <Content Include="Content\img\slider1\book1.svg" />
     <Content Include="Content\img\slider1\Untitled-21.svg" />
     <Content Include="Content\img\slider2\9f402255e12d8fe14e1efe858e66b07d.svg" />
+    <Content Include="Content\img\slider2\book3.svg" />
     <Content Include="Content\img\slider2\e_1czo.svg" />
+    <Content Include="Content\img\undraw_authentication_fsn5.svg" />
+    <Content Include="Content\img\undraw_Bibliophile_hwqc.svg" />
+    <Content Include="Content\img\undraw_book_lover_mkck.svg" />
+    <Content Include="Content\img\undraw_forgot_password_gi2d.svg" />
+    <Content Include="Content\img\undraw_mail_2_tqip.svg" />
     <Content Include="Content\img\wave2.png" />
     <Content Include="Content\img\клякса.svg" />
     <Content Include="Content\img\палец_вверх.svg" />
@@ -296,6 +305,7 @@
     <Content Include="slick\slick.scss" />
     <Content Include="Views\Shared\_MainLayout.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\_LayoutPassowrd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
