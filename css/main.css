@@ -802,6 +802,80 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   text-align: center;
 }
 
+.header-down .header__nav__list__item span a {
+  color: orange;
+}
+
+.opinion-wrapper {
+  min-height: 410px;
+  background: url("/img/fon.svg") left/55% no-repeat;
+}
+
+.opinion-wrapper__header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.opinion-wrapper__info {
+  margin-top: 25px;
+}
+
+.opinion-wrapper__info-block-text {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.opinion-wrapper__info-block-button {
+  margin: 0 auto;
+  margin-top: 54px;
+  width: 285px;
+  height: 53px;
+  border-radius: 27px;
+  background-color: #36cc9a;
+}
+
+.authors-wrapper {
+  background: url(/img/fon.svg) center/80% repeat-y;
+  min-height: 1900px;
+  padding: 50px 0 100px 0;
+}
+
+.authors-wrapper .authors__header {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.authors-wrapper .authors__info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.authors-wrapper .authors__info-block-img img {
+  width: 75%;
+}
+
+.authors-wrapper .authors__info-block-header {
+  margin-top: 6px;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.authors-wrapper .authors__info-block-button {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 190px;
+  height: 44px;
+  border-radius: 19px;
+  border: 2px solid #fbfbfb;
+}
+
 body {
   font-family: "Sansita", sans-serif;
 }
