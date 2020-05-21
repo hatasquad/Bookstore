@@ -7,6 +7,9 @@
 @import "koszyk";
 @import "book_cart";
 @import "authors";
+@import "koszyk1";
+@import "koszyk2";
+
 
 body{
     font-family: $font;
@@ -15,5 +18,5 @@ body{
 @include mainBtn;
 @include h1;
 @include subTitle;
-@include secondaryText;
+
 
