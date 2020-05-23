@@ -13,7 +13,7 @@
 }
 .opinion-wrapper{
     min-height: 410px;
-    background: url('../img/fon.svg') left/55% no-repeat;
+    background: url('/img/fon.svg') left/55% no-repeat;
     &__header{
         text-align: center;
         font-size: 40px;
@@ -40,7 +40,7 @@
     }
 }
 .authors-wrapper{
-    background: url(../img/fon.svg) 50% repeat-y;
+    background: url(/img/fon.svg) center/80% repeat-y;
     min-height: 1900px;
     padding: 50px 0 100px 0;
     .authors{

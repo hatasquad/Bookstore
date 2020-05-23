@@ -816,7 +816,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 
 .opinion-wrapper {
   min-height: 410px;
-  background: url("../img/fon.svg") left/55% no-repeat;
+  background: url("/img/fon.svg") left/55% no-repeat;
 }
 
 .opinion-wrapper__header {
@@ -846,7 +846,7 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 }
 
 .authors-wrapper {
-  background: url(../img/fon.svg) 50% repeat-y;
+  background: url(/img/fon.svg) center/80% repeat-y;
   min-height: 1900px;
   padding: 50px 0 100px 0;
 }
@@ -1019,109 +1019,6 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   color: #707070;
   text-align: center;
   font-size: 26px;
-}
-
-.ranking-wrapper {
-  min-height: 1860px;
-}
-
-.ranking-wrapper .ranking__header {
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.ranking-wrapper .ranking__header span {
-  margin-top: 40px;
-  color: #000000;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.ranking-wrapper .ranking__gold {
-  margin-top: 44px;
-  padding: 24px 44px 41px 95px;
-  height: 490px;
-  background-color: #ffe88b;
-}
-
-.ranking-wrapper .ranking__gold:nth-child(3) {
-  background-color: #dfdfdf;
-}
-
-.ranking-wrapper .ranking__gold:nth-child(4) {
-  background-color: #ffc48f;
-}
-
-.ranking-wrapper .ranking__gold_image {
-  margin-top: 19px;
-}
-
-.ranking-wrapper .ranking__gold_info_header {
-  text-align: center;
-  color: #000000;
-  font-size: 30px;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.ranking-wrapper .ranking__gold_info_description {
-  margin-top: 50px;
-  color: #000000;
-  font-size: 23px;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ranking-wrapper .ranking__gold_info_buttons {
-  margin-top: 53px;
-}
-
-.ranking-wrapper .ranking__gold_info_buttons .first {
-  background-color: #ff7d13;
-  border-radius: 19px;
-  border: 2px solid #fbfbfb;
-}
-
-.ranking-wrapper .ranking__gold_info_buttons .second {
-  border-radius: 19px;
-  border: 2px solid #fbfbfb;
-}
-
-.ranking-wrapper .ranking__gold_price {
-  text-align: center;
-}
-
-.ranking-wrapper .ranking__gold_price-availability {
-  margin-top: 185px;
-  color: #707070;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.ranking-wrapper .ranking__gold_price-value {
-  margin-top: 10px;
-  color: #000000;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 700;
-}
-
-.ranking-wrapper .ranking__link {
-  text-align: center;
-  margin-top: 32px;
-}
-
-.ranking-wrapper .ranking__link a {
-  text-decoration: none;
-  color: #707070;
-  -webkit-transition: all .7s;
-  transition: all .7s;
-}
-
-.ranking-wrapper .ranking__link a:hover {
-  color: orange;
 }
 
 body {

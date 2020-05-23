@@ -12,7 +12,9 @@
 @import "koszyk3";
 @import "koszyk4";
 @import "koszyk5";
-@import "pulitzer";
+
+
+
 
 body{
     font-family: $font;
@@ -21,3 +23,5 @@ body{
 @include mainBtn;
 @include h1;
 @include subTitle;
+
+
