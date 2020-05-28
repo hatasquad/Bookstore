@@ -66,38 +66,3 @@
         }
     }
 }
-
-.subscribe-info{
-    padding-top: 160px;
-    min-height: 900px;
-    background: url(../img/fon.svg) center/80% no-repeat;
-    &__headers{
-        h2{
-            text-align: center;
-            color: #000000;
-            font-size: 40px;
-            font-weight: 700;
-            margin-bottom: 90px;
-        }
-        div{
-            text-align: center;
-            color: #000000;
-            font-size: 40px;
-        }
-    }
-    &__icon{
-        margin: 45px 0 40px 0;
-        &-wrapper{
-            img{
-                display: block;
-                margin: 0 auto;
-            }
-            p{
-                color: #707070;
-                font-size: 23px;
-                font-weight: 400;
-                text-align: center;
-            }
-        }
-    }
-}

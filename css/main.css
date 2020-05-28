@@ -543,6 +543,17 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   outline: none;
 }
 
+.back a {
+  text-decoration: none;
+  color: #707070;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+.back a:hover {
+  color: orange;
+}
+
 .cart__title h1 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -772,42 +783,6 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   margin-top: 5px;
   font-size: 23px;
   font-weight: 400;
-}
-
-.subscribe-info {
-  padding-top: 160px;
-  min-height: 900px;
-  background: url(../img/fon.svg) center/80% no-repeat;
-}
-
-.subscribe-info__headers h2 {
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 90px;
-}
-
-.subscribe-info__headers div {
-  text-align: center;
-  color: #000000;
-  font-size: 40px;
-}
-
-.subscribe-info__icon {
-  margin: 45px 0 40px 0;
-}
-
-.subscribe-info__icon-wrapper img {
-  display: block;
-  margin: 0 auto;
-}
-
-.subscribe-info__icon-wrapper p {
-  color: #707070;
-  font-size: 23px;
-  font-weight: 400;
-  text-align: center;
 }
 
 .header-down .header__nav__list__item span a {
@@ -1122,6 +1097,63 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
 
 .ranking-wrapper .ranking__link a:hover {
   color: orange;
+}
+
+.promotion-wrapper {
+  min-height: 2050px;
+  padding: 10px 0 100px 0;
+}
+
+.promotion-wrapper .promotion__header {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.promotion-wrapper .promotion__info {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.promotion-wrapper .promotion__info-block-img img {
+  width: 75%;
+}
+
+.promotion-wrapper .promotion__info-block-header {
+  color: #000000;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.promotion-wrapper .promotion__info-block-price-discount-before {
+  color: #707070;
+  font-size: 23px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.promotion-wrapper .promotion__info-block-price-discount-value {
+  text-align-last: left;
+  color: #ff7d13;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.promotion-wrapper .promotion__info-block-price-actually {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.promotion-wrapper .promotion__info-block-button {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 190px;
+  height: 44px;
+  border: 2px solid #fbfbfb;
+  background-color: #36cc9a;
 }
 
 body {

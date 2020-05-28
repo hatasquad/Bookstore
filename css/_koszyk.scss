@@ -1,12 +1,13 @@
 .back{
-    &-link{
-
+    a{
+        text-decoration: none;
+        color: #707070;
+        transition: all .7s;
+        &:hover{
+            color: $colorHover;
+        }
     }
 }
-.seconary-text{
-    
-}
-
 .cart{
     &__title{
         @include h1( bold,  none, normal );
