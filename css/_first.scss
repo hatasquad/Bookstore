@@ -1,7 +1,7 @@
 // FIRS SECTION//
 .first-section{
     @include mSection(fon);
-    background-size:inherit;
+    background-size:contain;
     background-repeat: no-repeat;
     height: auto;
     padding: 75px 0;
@@ -13,8 +13,14 @@
     }
     
     .slider{
+        &__left__img{
+            width: 360px;
+            padding: 10px;
+            border-radius: 20px;
+        }
         &__left__img:focus{
             outline: none;
+
         }
         //RIGHT PART OF SLIDER BLOCK FROM FIRS SECTION //
         &__right{  

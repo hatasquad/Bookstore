@@ -45,11 +45,7 @@
 
 // MIXIN FOR ADDING BACKGROUNDS//
 @mixin mSection($name){
-      
       background:  url("../img/#{$name}.svg");
-      height: 75vh;
-      background-repeat: no-repeat;
-   
 }
 
 // STYLE FOR TRANSITION FOOTER`S ICONS //

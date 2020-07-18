@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
+    <script src="js/login.js"></script>
    </body>
     <title>Rejestracja</title>
 </head>
@@ -16,7 +16,7 @@
 			<img src="img/undraw_book_lover_mkck.svg">
 		</div>
 		<div class="login-content">
-			<form id="reg__form">
+			<form id="reg__form" action="php/check.php" method="post">
 				<img src="img/avatar.svg">
 				<h2 class="title">Waiting for you</h2>
            		<div class="input-div one" >
@@ -25,7 +25,7 @@
            		   </div>
            		   <div class="div">
            		   		      <h5>Username</h5>
-                              <input type="text" class="input" id="username">
+                              <input type="text" class="input" id="username" name="username">
                               <i class="fas fa-check-circle"></i>
                               <i class="fas fa-exclamation-circle"></i>
                               <small class="reg__error">Error message</small>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="div">
                             <h5>Mail</h5>
-                            <input type="email" class="input" id="email">
+                            <input type="email" class="input" id="email" name="email">
                             <i class="fas fa-check-circle"></i>
                               <i class="fas fa-exclamation-circle"></i>
                               <small class="reg__error">Error message</small>
@@ -51,7 +51,7 @@
            		   </div>
            		   <div class="div">
            		    	<h5>Password</h5>
-                           <input type="password" class="input" id="password">
+                           <input type="password" class="input" id="password" name="password">
                            <i class="fas fa-check-circle"></i>
                               <i class="fas fa-exclamation-circle"></i>
                               <small class="reg__error">Error message</small>

@@ -1,7 +1,7 @@
 // SECTION TWO//
 .second-section{
     height: auto;
-    padding: 35px 0;
+    padding: 80px 0;
     background-color: $bgColor;  
     
      .second-wrapper{ 
@@ -10,11 +10,18 @@
          margin: 0 auto;
          padding-top: 30px; 
        // CONTENT OF SECOND SLIDER//
+       .second-slider{
+         width: 85%;
+         margin: 0 auto;
+       }
         .second-slider__box{
             max-width: 310px;
             margin: 20px;
                 .second-slider__img{
                    margin: 0 auto 15px;
+                    height: 305px;
+                    width: 190px;
+                  border-radius: 20px;
                 }
                 h4{
                     text-align: center;

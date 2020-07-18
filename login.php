@@ -14,7 +14,7 @@
 			<img src="img/undraw_Bibliophile_hwqc.svg">
 		</div>
 		<div class="login-content">
-			<form action="login.html">
+			<form action="php/auth.php" method="post">
 				<img src="img/avatar.svg">
 				<h2 class="title">Welcome</h2>
            		<div class="input-div one">
@@ -23,7 +23,7 @@
            		   </div>
            		   <div class="div">
            		   		<h5>Username</h5>
-           		   		<input type="text" class="input">
+           		   		<input type="text" class="input" name="username">
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -32,13 +32,14 @@
            		   </div>
            		   <div class="div">
            		    	<h5>Password</h5>
-           		    	<input type="password" class="input">
+           		    	<input type="password" class="input" name="password">
             	   </div>
             	</div>
             	<a href="#">Forgot Password?</a>
 				<input type="submit" class="btn" value="Login">
-				<input type="submit"  class="btn" value="Registration">
+				<input  class="btn " value="Registration">
             </form>
+            <a href="php/books.php">books</a>
         </div>
     </div>
     <script type="text/javascript" src="js/login.js"></script>
