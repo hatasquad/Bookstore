@@ -12,9 +12,9 @@
     <script src="slick/slick.min.js"></script>
     <script src="js/searchScale.js"></script>
     <script type="text/javascript" src="js/slider.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <script type="text/javascript" src="js/addToCart.js"></script>
+     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <title>Main</title>
 </head>
@@ -87,8 +87,8 @@
                                 <p class="slider__right-text pText">
                                     '.$row['description'].'
                                 </p>
-                                <form action="#" class="">
-                                    <button class="slider__button-cart mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                                <form action="" class="">
+                                    <button class="slider__button-cart mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                                 </form>
                             </div>           
                     </div>';
@@ -112,8 +112,8 @@
                         <a href="#" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
                         <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
                         <h4 class="text-center">'.$row['author'].' </h4>
-                        <form action="#" class=" ">
-                            <button class=" mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        <form action="" class=" ">
+                            <button class="mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         </form>
                     </div>
                 </div>';
@@ -161,15 +161,14 @@
                         <a href="#" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
                         <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
                         <h4 class="text-center">'.$row['author'].' </h4>
-                        <form action="#" class=" ">
-                            <button class=" mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        <form action="" class=" ">
+                            <button class=" mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         </form>
                     </div>
                 </div>';
                 }
 
                 ?>
-            </div>
             </div>
         </div>
     </section>
@@ -211,8 +210,8 @@
                         <a href="#" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
                         <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
                         <h4 class="text-center">'.$row['author'].' </h4>
-                        <form action="#" class=" ">
-                            <button class=" mainBtn ">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        <form action="" class=" ">
+                            <button class=" mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         </form>
                     </div>
                 </div>';
