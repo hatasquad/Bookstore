@@ -40,7 +40,7 @@
                             <?php endif;?>
                         </button>
                     </form>
-                    <form class="header__form-cart" action="koszyk.html" target="_blank">
+                    <form class="header__form-cart" action="koszyk.php" target="_blank">
                         <button class="header__form-cart">
                             <img src="img/koszyk2.svg" alt="cart">
                         </button>

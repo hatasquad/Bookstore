@@ -13,6 +13,9 @@ $result = $mysql->query("SELECT * FROM `Books`");
 
 $newBook = $mysql->query("SELECT * FROM `Books` WHERE `isNew` = '$bookNew'");
 
+
 $mysql->close();
+
+
 
 ?>
