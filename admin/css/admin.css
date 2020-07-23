@@ -1,0 +1,7 @@
+.isNew{
+    display: flex;
+    flex-direction: column;
+}
+.isNew__inpt{
+    margin: 5px;
+}

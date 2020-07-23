@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="css/admin.css" rel="stylesheet">
     <title>Title</title>
 </head>
 <body>
     <div class="goods-out"></div>
+    <h2>Book</h2>
+    <p>Title: <input type="text" id="btitle"></p>
+    <p>Author: <input type="text" id="bauthor"></p>
+    <p>Image: <input  type="text" id="bimg"></p>
+    <p>Price: <input type="text" id="bprice"></p>
+    <p>Description: <textarea  id="bdesc"></textarea></p>
+    <p>is New: <input type="text" id="bisnew"></p>
+    <input type="hidden" id="bid">
+    <button class="addToDb">Refresh</button>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/admin.js"></script>
