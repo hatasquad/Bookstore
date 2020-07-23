@@ -85,7 +85,7 @@
                                 Razem
                 </h2>
             
-                <h2 class="sum-num ">69.99 <span>zł</span> </h2>
+                <h2 class="sum-num "><span class="sumPrice">0.00</span>  <span>zł</span> </h2>
             </div>
         </div>
         <div class="row cart__button__box">
@@ -94,7 +94,7 @@
                 Kontynuuj zakupy
             </button>
             <div class="col-md-1"></div>
-            <button class="cart__button col-md-4">
+            <button class="cart__button col-md-4 cart-next-button">
                 Przejdż do zamówienia
             </button>
         </div>
