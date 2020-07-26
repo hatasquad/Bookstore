@@ -107,7 +107,7 @@ function checkInputs(){
                 deliverMethod: eDeliver
             }
             localStorage.setItem('userInfo', JSON.stringify(userInfo));
-            window.location.replace("../Bookstore/koszyk2.html")
+            window.location.replace("../Bookstore/koszyk2.php")
         }else {
             alert('Cart is empty')
         }
@@ -135,7 +135,7 @@ function checkInputs2(){
         let value = JSON.parse(localStorage.getItem('userInfo'));
         let result =  Object.assign(value, userInfo);
         localStorage.setItem('userInfo', JSON.stringify(result));
-        window.location.replace("../Bookstore/koszyk3.html")
+        window.location.replace("../Bookstore/koszyk3.php")
     }
 
 }
@@ -151,7 +151,7 @@ function checkInputs3(){
         let value = JSON.parse(localStorage.getItem('userInfo'));
         let result =  Object.assign(value, userInfo);
         localStorage.setItem('userInfo', JSON.stringify(result));
-        window.location.replace("../Bookstore/koszyk4.html")
+        window.location.replace("../Bookstore/koszyk4.php")
     }
 
 }
@@ -190,7 +190,7 @@ function sendEmail(){
         function (data) {
            let res = JSON.parse(data)
             if(res.status==='success'){
-                window.location.replace("../Bookstore/koszyk5.html")
+                window.location.replace("../Bookstore/koszyk5.php")
 
             }else {
                 alert('Repeat order')
@@ -205,7 +205,7 @@ function sendEmail(){
 $(document).ready(function () {
     loadCart();
     $(".cart-next-button").on('click', ()=>{
-        window.location.replace("../Bookstore/koszyk1.html")
+        window.location.replace("../Bookstore/koszyk1.php")
     });
     $(".cart1-next-button").on('click', checkInputs);
     $(".cart2-next-button").on('click', checkInputs2);

@@ -1,42 +1,24 @@
 <?php require 'header.php'?>
-
-<section class="cart__section container">
-        <div class="back">
-            <a href="#">&larr;<u>powrót</u></a>
+    <section class="cart__section container">
+        <div class="back-button">
+            <a class="secondary-link" href="#"><span class="secondary-text"> &lt;powrót </span> </a>
         </div>
 
         <div class="cart__title">
-           <h1 class="">Twój aktualny koszyk</h1>
+           <h1 class="">Sukces!</h1>
         </div>
-        <div class="cart__parametrs">
-
-            <h2>Ilość</h2>
-            <h2>Cena</h2>
-        </div>
-        <div class="cart">
-
-        </div>
-
-        <div class="row ">
-            <div class="col-md-10"></div>
-            <div class="sum col-md-2">
-                <h2 class="sum-text sub-title ">
-                                Razem
-                </h2>
-            
-                <h2 class="sum-num "><span class="sumPrice">0.00</span>  <span>zł</span> </h2>
+        <div class="cart-container col-md-10 mx-auto p-4"> 
+            <img class="confirm-img" src="img/orderImg/confirm.svg">
+            <div class="succses__box">
+                <h4>Twoje zamówienie zostało złożone</h4>
             </div>
-        </div>
-        <div class="row cart__button__box">
-            <div class="col-md-3"></div>
-            <button class="cart__button orangeBg col-md-4">
-                Kontynuuj zakupy
-            </button>
-            <div class="col-md-1"></div>
-            <button class="cart__button col-md-4 cart-next-button">
-                Przejdż do zamówienia
+            <button class="cart__button  col-md-4 mx-auto mt-5">
+                Zamknij
             </button>
         </div>
+        
+
+        
 
     </section>
      <section class="second-section ">
@@ -173,9 +155,4 @@
             </div>
         </div>
     </section>
-
 <?php require 'footer.php'?>
-
-
-   
-    
