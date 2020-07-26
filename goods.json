@@ -1,1 +1,83 @@
-{"The Program":{"id":"1","title":"The Program","price":"35","author":"Suzanne Young","description":"In this \"gripping tale for lovers of dystopian romance\" (Kirkus Reviews), true feelings are forbidden, teen suicide is an epidemic, and the only solution is The Program.\nSloane knows better than to cry in front of anyone. With suicide now an international epidemic, one outburst could land her in The Program, the only proven course of treatment.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/9353277\/original\/9781442445819.jpg?1588120844","isNew":"1"},"Mastering PHP 7":{"id":"2","title":"Mastering PHP 7","price":"5.99","author":"Branko Ajzele","description":"Are you interested in learning to program PHP and have some fun along the way? If so, then The Joy of PHP by Alan Forbes is the book for you!! Alan starts with some basic HTML so the absolute beginner can catch up quickly and then goes step by step on how PHP works.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/7459549\/original\/9781785882814.jpg?1588302013","isNew":"0"},"PHP: Learn PHP in 2 Hours":{"id":"3","title":"PHP: Learn PHP in 2 Hours","price":"45.99","author":"Cooper Alvin","description":"Examples illustrate how to store and retrieve Session Data, how to provide a Message Board, and how to create an E-Commerce Shopping Cart.\nThis book assumes you have no previous experience of any programming or scripting language so is ideal for the newcomer to PHP and MySQL technologies.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/8606107\/original\/9781983839375.jpg?1573683196","isNew":"1"},"The PHP Workshop":{"id":"4","title":"The PHP Workshop","price":"35.49","author":"David Carr","description":"DAVID CARR was one of the most prolific and celebrated journalists of our time. Carr edited and wrote for a wide variety of publications, including the Twin City Reader in Minneapolis, the Washington City Paper, Inside.com, New York Magazine, the Atlantic, and the New York Times, where he created The Carpetbagger and the Media Equation columns. ","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/10858693\/original\/9781838648916.jpg?1588367291","isNew":"1"},"JavaScript in Easy Steps":{"id":"5","title":"JavaScript in Easy Steps","price":"20.99","author":"Mike McGrath","description":"JavaScript in easy steps, 6th edition instructs the user how to create exciting web pages that employ the power of JavaScript to provide functionality. You need have no previous knowledge of any scripting language so it's ideal for the newcomer to JavaScript.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/1914597\/original\/9781840788778.jpg?1588217534","isNew":"1"},"Javascript: A Beginner's Guide":{"id":"6","title":"Javascript: A Beginner's Guide","price":"86","author":"John Pollok","description":"This hands-on, fast-paced guide shows, from start to finish, how to create dynamic Web pages complete with special effects using JavaScript. This edition contains updates for all major new features and the latest Web development techniques and practices. You will discover how to extend JavaScript's capabilities to the server side using Node.js.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/3285885\/original\/9781260457681.jpg?1588158853","isNew":"0"},"JavaScript for impatient programmers":{"id":"7","title":"JavaScript for impatient programmers","price":"300","author":"Axel Rauschmayer","description":"This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible.\r\nNo prior knowledge of JavaScript is required, but you should know how to program.","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/3970630\/original\/9781091210097.jpg?1588070387","isNew":"0"},"Mission HTML":{"id":"8","title":"Mission HTML","price":"129.99","author":"Shela Preuit","description":"Your mission, should you choose to accept it, is to learn HTML and use it to create a web page. HTML is a type of code that makes a set of letters, numbers, and symbols appear on your phone or computer as a streamlined page of text and images. Learn the basics of this type of code and follow step-by-step instructions to complete your HTML mission!","img":"https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/525267\/original\/9781541573734.jpg?1586751667","isNew":"0"},"Hello":{"id":"20","title":"Hello","price":"20","author":"ja","description":"adasdasdadsasdadadsasd","img":"nema","isNew":"0"}}
+{
+  "The Program": {
+    "id": "1",
+    "title": "The Program",
+    "price": "35",
+    "author": "Suzanne Young",
+    "description": "In this \"gripping tale for lovers of dystopian romance\" (Kirkus Reviews), true feelings are forbidden, teen suicide is an epidemic, and the only solution is The Program.\nSloane knows better than to cry in front of anyone. With suicide now an international epidemic, one outburst could land her in The Program, the only proven course of treatment.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/9353277\/original\/9781442445819.jpg?1588120844",
+    "isNew": "1"
+  },
+  "Mastering PHP 7": {
+    "id": "2",
+    "title": "Mastering PHP 7",
+    "price": "5.99",
+    "author": "Branko Ajzele",
+    "description": "Are you interested in learning to program PHP and have some fun along the way? If so, then The Joy of PHP by Alan Forbes is the book for you!! Alan starts with some basic HTML so the absolute beginner can catch up quickly and then goes step by step on how PHP works.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/7459549\/original\/9781785882814.jpg?1588302013",
+    "isNew": "0"
+  },
+  "PHP: Learn PHP in 2 Hours": {
+    "id": "3",
+    "title": "PHP: Learn PHP in 2 Hours",
+    "price": "45.99",
+    "author": "Cooper Alvin",
+    "description": "Examples illustrate how to store and retrieve Session Data, how to provide a Message Board, and how to create an E-Commerce Shopping Cart.\nThis book assumes you have no previous experience of any programming or scripting language so is ideal for the newcomer to PHP and MySQL technologies.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/8606107\/original\/9781983839375.jpg?1573683196",
+    "isNew": "1"
+  },
+  "The PHP Workshop": {
+    "id": "4",
+    "title": "The PHP Workshop",
+    "price": "35.49",
+    "author": "David Carr",
+    "description": "DAVID CARR was one of the most prolific and celebrated journalists of our time. Carr edited and wrote for a wide variety of publications, including the Twin City Reader in Minneapolis, the Washington City Paper, Inside.com, New York Magazine, the Atlantic, and the New York Times, where he created The Carpetbagger and the Media Equation columns. ",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/10858693\/original\/9781838648916.jpg?1588367291",
+    "isNew": "1"
+  },
+  "JavaScript in Easy Steps": {
+    "id": "5",
+    "title": "JavaScript in Easy Steps",
+    "price": "20.99",
+    "author": "Mike McGrath",
+    "description": "JavaScript in easy steps, 6th edition instructs the user how to create exciting web pages that employ the power of JavaScript to provide functionality. You need have no previous knowledge of any scripting language so it's ideal for the newcomer to JavaScript.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/1914597\/original\/9781840788778.jpg?1588217534",
+    "isNew": "1"
+  },
+  "Javascript: A Beginner's Guide": {
+    "id": "6",
+    "title": "Javascript: A Beginner's Guide",
+    "price": "86",
+    "author": "John Pollok",
+    "description": "This hands-on, fast-paced guide shows, from start to finish, how to create dynamic Web pages complete with special effects using JavaScript. This edition contains updates for all major new features and the latest Web development techniques and practices. You will discover how to extend JavaScript's capabilities to the server side using Node.js.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/3285885\/original\/9781260457681.jpg?1588158853",
+    "isNew": "0"
+  },
+  "JavaScript for impatient programmers": {
+    "id": "7",
+    "title": "JavaScript for impatient programmers",
+    "price": "300",
+    "author": "Axel Rauschmayer",
+    "description": "This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible.\r\nNo prior knowledge of JavaScript is required, but you should know how to program.",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/3970630\/original\/9781091210097.jpg?1588070387",
+    "isNew": "0"
+  },
+  "Mission HTML": {
+    "id": "8",
+    "title": "Mission HTML",
+    "price": "129.99",
+    "author": "Shela Preuit",
+    "description": "Your mission, should you choose to accept it, is to learn HTML and use it to create a web page. HTML is a type of code that makes a set of letters, numbers, and symbols appear on your phone or computer as a streamlined page of text and images. Learn the basics of this type of code and follow step-by-step instructions to complete your HTML mission!",
+    "img": "https:\/\/images-production.bookshop.org\/spree\/images\/attachments\/525267\/original\/9781541573734.jpg?1586751667",
+    "isNew": "0"
+  },
+  "Hello": {
+    "id": "20",
+    "title": "Hello",
+    "price": "20",
+    "author": "ja",
+    "description": "adasdasdadsasdadadsasd",
+    "img": "nema",
+    "isNew": "0"
+  }
+}

@@ -1,4 +1,5 @@
 <?php require 'header.php'?>
+
     <section class="first-section">
         <div class="slider container">
             <h1 class="col-md-8 title">Najlepsze za tydzień!</h1>
@@ -20,7 +21,7 @@
                                     '.$row['description'].'
                                 </p>
                                 <form action="" class="">
-                                    <button class="slider__button-cart mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                                    <button class="slider__button-cart mainBtn addToCartBtn" data-id="'.$row['title'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                                 </form>
                             </div>           
                     </div>';
@@ -42,7 +43,7 @@
                     echo '<div class="second-slider__box">
                     <div class="second-slider__content">
                         <a href="book_cart.php#'.$row['id'].'" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
-                        <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
+                        <h3 class="text-center"><a href="book_cart.php#" class="text-title"><strong >'.$row['title'].'</strong></h3></a>
                         <h4 class="text-center">'.$row['author'].' </h4>
                         <form action="" class=" ">
                             <button class="mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
@@ -91,10 +92,10 @@
                     echo '<div class="second-slider__box">
                     <div class="second-slider__content">
                         <a href="book_cart.php#'.$row['id'].'" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
-                        <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
+                        <h3 class="text-center"><a href="book_cart.php#" class="text-title"><strong >'.$row['title'].'</strong></h3></a>
                         <h4 class="text-center">'.$row['author'].' </h4>
                         <form action="" class=" ">
-                            <button class=" mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                            <button class="mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         </form>
                     </div>
                 </div>';
@@ -140,10 +141,10 @@
                     echo '<div class="second-slider__box">
                     <div class="second-slider__content">
                         <a href="book_cart.php#'.$row['id'].'" class="second-slider__link"><img class="second-slider__img" src="'.$row['img'].'" alt=\"boock\"> </a>
-                        <h3 class="text-center"><strong class="">'.$row['title'].'</strong></h3>
+                        <h3 class="text-center"><a href="book_cart.php#" class="text-title"><strong >'.$row['title'].'</strong></h3></a>
                         <h4 class="text-center">'.$row['author'].' </h4>
                         <form action="" class=" ">
-                            <button class=" mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                            <button class="mainBtn addToCartBtn" data-id="'.$row['id'].'">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         </form>
                     </div>
                 </div>';

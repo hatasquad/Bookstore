@@ -169,6 +169,12 @@
                     background-color: #68FFCC;
                     transform: scale(1.1);
                 }
+                &:focus{
+                outline: none;
+                background-color: #68FFCC;
+                transform: scale(1.1);
+            }
+            }
             }  
         }
        
@@ -185,4 +191,3 @@
             color: $colorBtn;
         }
     }
-}

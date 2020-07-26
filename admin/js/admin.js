@@ -10,7 +10,6 @@ function init() {
 
 function showGoods(data) {
     data = JSON.parse(data);
-    console.log(data);
     var out='<select>';
     out +='<option data-id="0">Add book</option>';
     for (var id in data) {

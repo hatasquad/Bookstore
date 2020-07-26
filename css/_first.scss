@@ -42,4 +42,28 @@
     margin-left: 10px;
 }
 
+.img-srch {
+    width: 360px;
+    padding: 10px;
+    border-radius: 20px;
+}
 
+.text-srch{
+    max-width: 950px;
+}
+.text-title{
+    color: #1f1f1f;
+    text-decoration: none !important;
+    padding-bottom: 1px;
+    border-bottom: 3px solid pink;
+    transition: all .5s;
+
+    &:hover{
+        text-decoration: none;
+        color: #1f1f1f;
+        border-bottom: 3px solid red;
+        ;
+
+
+    }
+}

@@ -1,13 +1,12 @@
 let cart = {};
 let userInfo = {};
-
-
-
+let cartSum =0;
 
 function loadCart() {
     if (localStorage.getItem('cart')) {
         cart = JSON.parse(localStorage.getItem('cart'));
             showCart();
+
         }
     else {
         $('.cart__wrapper').html('cart is empty');
@@ -24,25 +23,25 @@ function showCart() {
             let out = " ";
             for (let id in cart) {
                 out += `<div class="cart__wrapper">
-<div class="cart__left">
-                <img class="cart-img" src="${goods.books[id - 1].img}" alt="book">
+            <div class="cart__left">
+                <img class="cart-img" src="${goods[id].img}" alt="book">
             </div>
             <div class="cart__lable">
-                <h1 class="sub-title">${goods.books[id - 1].title}</h1>
-                <h2 class="sub-title text-muted">${goods.books[id - 1].author}</h2>
-                
+                <h1 class="sub-title">${goods[id].title}</h1>
+                <h2 class="sub-title text-muted">${goods[id].author}</h2>
+
             </div>
             <div class="cart__number">
-                <h2 class="sub-title"> <span data-id="${goods.books[id].id - 1}" class="minus-book"><i class="fa fa-minus-square"></i></span>  <span  class="pl-2 pr-2">${cart[id]}</span>  <span  class="plus-book" data-id="${goods.books[id].id - 1}"><i class="fa fa-plus-square "></i></span></h2>
+                <h2 class="sub-title"> <span data-id="${id}" class="minus-book"><i class="fa fa-minus-square"></i></span>  <span  class="pl-2 pr-2">${cart[id]}</span>  <span  class="plus-book" data-id="${id}"><i class="fa fa-plus-square "></i></span></h2>
             </div>
             <div class="cart__cost">
-                <h2 class="sub-title"> ${(cart[id]*goods.books[id - 1].price).toFixed(2)} <span class="pl-1">zł</span> </h2>
+                <h2 class="sub-title"> ${(cart[id]*goods[id].price).toFixed(2)} <span class="pl-1">zł</span> </h2>
             </div>
             <div class="cart__trash">
-                <a class="cart__trash-link delete-book"  data-id="${goods.books[id].id - 1}"> <i class="fas fa-trash-alt"></i></a>
-                <a class="secondary-link delete-book"  data-id="${goods.books[id].id - 1}"><span class="secondary-text"> usuń </span> </a>
+                <a class="cart__trash-link delete-book"  data-id="${id}"> <i class="fas fa-trash-alt"></i></a>
+                <a class="secondary-link delete-book"  data-id="${id}"><span class="secondary-text"> usuń </span> </a>
             </div></div>`
-                sum = sum + cart[id]*goods.books[id - 1].price;
+                sum = sum + cart[id]*goods[id].price;
             }
             $(".cart").html(out);
             $(".delete-book").on('click', delGoods);
@@ -56,12 +55,16 @@ function showCart() {
 function delGoods() {
     let id = $(this).attr('data-id');
     delete cart[id];
+
     saveCart();
+    $('.cart-count').html(cartSum)
     showCart();
 }
 function plusGoods() {
     let id = $(this).attr('data-id');
     cart[id]++;
+    cartSum++;
+    $('.cart-count').html(cartSum)
     saveCart();
     showCart();
 }
@@ -71,8 +74,9 @@ function minusGoods() {
         delete cart[id];
     }else {
         cart[id]--;
+        cartSum --;
     }
-
+    $('.cart-count').html(cartSum)
     saveCart();
     showCart();
 }
@@ -216,5 +220,8 @@ $(document).ready(function () {
         if ($(this).is(':checked')) {
             $('#oneChoice input:checkbox').not(this).prop('checked', false);        }
     });
-
+    for (let k in cart){
+        cartSum = cartSum + cart[k]
+    }
+    $('.cart-count').html(cartSum)
 })

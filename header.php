@@ -12,7 +12,9 @@
     <script src="slick/slick.min.js"></script>
     <script src="js/searchScale.js"></script>
     <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
     <script type="text/javascript" src="js/addToCart.js"></script>
+    <script type="text/javascript" src="js/searchBook.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -45,7 +47,7 @@
                         <img src="img/koszyk2.svg" alt="cart">
                     </button>
                     <div class="header__form-cart-increment">
-                        <p>1</p>
+                        <p class="cart-count">1</p>
                     </div>
                 </form>
             </div>
@@ -66,4 +68,7 @@
             <li class="header__nav__list__item"><a href="#">Obserwuj nas</a></li>
         </ul>
     </nav>
+</div>
+<div class="row" id="display">
+
 </div>

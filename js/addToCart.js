@@ -1,7 +1,7 @@
+let cartSum = 0;
 function init() {
-    //$.getJSON("goods.json", goodsOut);
+    $.getJSON("goods.json", goodsOut);
     let hash = window.location.hash.substring(1);
-    console.log(hash);
     $.post(
         "admin/core.php",
         {
@@ -13,7 +13,6 @@ function init() {
 }
 function goodsOut(data){
     data = JSON.parse(data);
-    console.log(data);
     let out = '';
     out += `<div class="book-info__image col-md-4">
                         <img src="${data.img}" alt="book image">
@@ -33,7 +32,7 @@ function goodsOut(data){
                                 <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                             </div>
                         </div>
-                        <button class="mainBtn addToCartBtn" data-id="${data.id}">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
+                        <button class="mainBtn addToCartBtn" data-id="${data.title}">Do koszyka  <i class="fas fa-cart-arrow-down"></i></button>
                         <div class="book-info__description-text">
                             ${data.description}
                         </div>
@@ -41,18 +40,26 @@ function goodsOut(data){
     $('.book-info').html(out);
     $('.addToCartBtn').on('click', addToCart);
 }
-let cart = {};
+//let cart = {};
 function addToCart(e) {
+    let count = $('.counter').val();
     e.preventDefault();
     let id = $(this).attr('data-id');
-    console.log(id);
     if (cart[id] === undefined){
-        cart[id] = 1;
+        if($('.counter').hasClass("counter")){
+            cart[id] = parseInt(count);
+        }else {
+            cart[id] = 1;
+        }
     }
     else {
-        cart[id]++;
+        if($('.counter').hasClass("counter")){
+            cart[id] = cart[id] + parseInt(count);
+        }else {
+            cart[id]++;
+        }
+
     }
-    console.log(cart);
     saveCart();
 }
 
@@ -62,11 +69,16 @@ function saveCart() {
 function loadCart(){
     if(localStorage.getItem('cart')){
         cart = JSON.parse(localStorage.getItem('cart'));
-        console.log(cart);
+
     }
 }
+
 
 $(document).ready(function () {
     init();
     loadCart();
+    for (let k in cart){
+        cartSum = cartSum + cart[k]
+    }
+    $('.cart-count').html(cartSum)
 })

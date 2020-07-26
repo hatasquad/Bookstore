@@ -142,6 +142,29 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   margin-left: 10px;
 }
 
+.img-srch {
+  width: 360px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.text-srch {
+  max-width: 950px;
+}
+
+.text-title {
+  color: #1f1f1f;
+  text-decoration: none !important;
+  padding-bottom: 1px;
+  border-bottom: 3px solid pink;
+  transition: all 0.5s;
+}
+.text-title:hover {
+  text-decoration: none;
+  color: #1f1f1f;
+  border-bottom: 3px solid red;
+}
+
 .second-section {
   height: auto;
   padding: 80px 0;
@@ -384,11 +407,17 @@ header .header__btn .header__form-cart .header__form-cart-increment p {
   background-color: #68FFCC;
   transform: scale(1.1);
 }
-.footer .copyright {
+.footer-down__form__button:focus {
+  outline: none;
+  background-color: #68FFCC;
+  transform: scale(1.1);
+}
+
+.copyright {
   background-color: #3C3D3F;
   height: 8vh;
 }
-.footer .copyright-text {
+.copyright-text {
   display: block;
   text-align: center;
   margin: 0px auto;
@@ -965,6 +994,7 @@ button:hover {
 }
 button:focus {
   outline: none;
+  transform: scale(1.1);
 }
 
 h1 {
