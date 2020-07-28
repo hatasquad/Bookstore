@@ -39,7 +39,6 @@
 				<input type="submit" class="btn" value="Login">
 				<input  class="btn " value="Registration">
             </form>
-            <a href="php/books.php">books</a>
         </div>
     </div>
     <script type="text/javascript" src="js/login.js"></script>
